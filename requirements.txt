@@ -1,0 +1,16 @@
+# ── 核心（日志） ──────────────────────────────
+loguru>=0.7.2
+
+# ── 数据库 ────────────────────────────────────
+PyMySQL>=1.1.0        # MySQLHelper / MySQLPoolHelper
+DBUtils>=3.1.0        # MySQLPoolHelper 连接池
+
+# ── 可选依赖：用到对应工具类才需要安装 ──────────
+# requests>=2.31.0    # HttpHelper
+# redis>=5.0.0        # RedisHelper
+# openpyxl>=3.1.0     # ExcelHelper
+# pyyaml>=6.0         # ConfigHelper 读取 YAML
+# pycryptodome>=3.20  # CryptoHelper 的 AES 加解密
+#
+# SQLite / 日志 / UUID / 雪花 / 时间 / 文件 / 缓存 / 邮件 / 线程池
+# 均为标准库实现，无需额外安装。
